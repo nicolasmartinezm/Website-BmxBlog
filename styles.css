@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(imgs/background.jpg);
+  background-size: fixed;
+  background-position: center;
+  background-repeat: none;
+  padding: 0 12vw;
+  font-family: Helvetica, sans-serif;
+  align-content: Center;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  background: white;
+}
+.bannerprincipal {
+  width: 100%;
+}
+.mainNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 20px 30px;
+  margin: 0;
+  width: 100%;
+}
+.mainNav a {
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all ease-in 0.15s;
+}
+.mainNav a:hover {
+  border-bottom: 2px solid white;
+}
+.mainNav > * {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.mainNav img {
+  width: 30px;
+  min-width: 30px;
+}
+.mainNav img:first-child {
+  width: 100px;
+  min-width: 100px;
+}
+.mainContent {
+  height: 600px;
+  padding: 50px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+}
+.imagenPrincipal {
+  background-image: url(imgs/andhika-soreng-Wy39-kDTiQE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: end;
+  padding-right: 50px;
+  width: 100%;
+  height: 100%;
+}
+.imagenPrincipal > * {
+  color: white;
+  background-color: #ae537c;
+}
+
+.imagenPrincipal h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.imagenPrincipal a {
+  color: white;
+  font-size: 1.5rem;
+}
+.banner {
+  background-color: #efefef;
+  width: 100%;
+  padding: 30px 53px;
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+}
+.banner img {
+  width: 100%;
+}
+
+.videoContent {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: Center;
+  align-items: Center;
+  padding: 20px;
+}
+.videoPost {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: start;
+  border: 1px solid transparent;
+  transition: all ease-in 0.25s;
+}
+.videoPost:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  border: 1px solid rgba(171, 170, 170, 0.447);
+}
+.typeOfPost {
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+.video {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: Center;
+}
+.video img {
+  opacity: 1;
+  width: 100px;
+}
+.videoHeading {
+  font-weight: 700;
+}
+.pageButtons {
+  padding: 30px;
+}
+.pageButtons button {
+  padding: 10px;
+  margin: 5px;
+}
+.pageButtons button:hover {
+  cursor: pointer;
+}
+.video1 {
+  background-image: url(imgs/bence-balla-schottner-Gwcw8jL2gdU-unsplash.jpg);
+}
+.video2 {
+  background-image: url(imgs/brandon-erlinger-ford-_ScciNn8fAY-unsplash.jpg);
+}
+.video3 {
+  background-image: url(imgs/brandon-hoogenboom-GKJlkbPW7JE-unsplash.jpg);
+}
+.video4 {
+  background-image: url(imgs/brian-matangelo-Kw2E9t0v0fs-unsplash.jpg);
+}
+.video5 {
+  background-image: url(imgs/brian-matangelo-mksgy4je96M-unsplash.jpg);
+}
+.video6 {
+  background-image: url(imgs/brian-matangelo-rfJk1fzx1ks-unsplash.jpg);
+}
+.video7 {
+  background-image: url(imgs/carter-moorse-boGJKCjbZLQ-unsplash.jpg);
+}
+.video8 {
+  background-image: url(imgs/egor-vikhrev-Kj2z--IgrVo-unsplash.jpg);
+}
+.video9 {
+  background-image: url(imgs/imagine-riders-tE2E7irvwnU-unsplash.jpg);
+}
+
+footer {
+  background: #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footerContent {
+  width: 450px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+.footerContent > * {
+  color: white;
+}
+.footerHeader {
+  padding-bottom: 20px;
+}
+.socialMedia {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.rss {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+.photo1 {
+  background-image: url(imgs/viet-hoang--z0yl6nzUv4-unsplash.jpg);
+}
+.photo1 {
+  background-image: url(imgs/viet-hoang--z0yl6nzUv4-unsplash.jpg);
+}
+.photo2 {
+  background-image: url(imgs/valentyn-ihnatov-dtyEL_FV4yU-unsplash.jpg);
+}
+.photo3 {
+  background-image: url(imgs/magical-views-wcJLdyUBPMY-unsplash.jpg);
+}
+.photo4 {
+  background-image: url(imgs/lucian-dachman-QJrw6urDFms-unsplash.jpg);
+}
+.photo5 {
+  background-image: url(imgs/leandro-riviello--56WvK0g4Dw-unsplash.jpg);
+}
+.photo6 {
+  background-image: url(imgs/keagan-henman-Z4akVmAJ3vs-unsplash.jpg);
+}
+.photo7 {
+  background-image: url(imgs/jan-kopriva-sQ1ZfaaXKvI-unsplash.jpg);
+}
+.photo8 {
+  background-image: url(imgs/imagine-riders-tE2E7irvwnU-unsplash.jpg);
+}
+.photo9 {
+  background-image: url(imgs/egor-vikhrev-Kj2z--IgrVo-unsplash.jpg);
+}
+.photo10 {
+  background-image: url(imgs/carter-moorse-boGJKCjbZLQ-unsplash.jpg);
+}
